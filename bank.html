@@ -17,16 +17,16 @@
         <section class="mt-12">
             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
                 <div class="bg-green-400 p-8 text-white rounded-xl">
-                    <h4 class="text-2xl ">Deposit</h4>
-                    <h2 class="text-5xl ">$00</h2>
+                    <h4 class="text-2xl">Deposit</h4>
+                    <h2 class="text-5xl">$<span id="deposit-total">00</span> </h2>
                 </div>
                 <div class="bg-amber-400 p-8 text-white rounded-xl">
                     <h4 class="text-2xl ">Withdrow</h4>
-                    <h2 class="text-5xl ">$00</h2>
+                    <h2 class="text-5xl">$<span id="withdrow-total">00</span> </h2>
                 </div>
                 <div class="bg-violet-400 p-8 text-white rounded-xl">
                     <h4 class="text-2xl ">Balance</h4>
-                    <h2 class="text-5xl ">$1240</h2>
+                    <h2 class="text-5xl">$<span id="balance-total">1240</span> </h2>
                 </div>
 
             </div>
@@ -36,21 +36,22 @@
             <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
                 <div class="bg-fuchsia-400 p-8 text-black rounded-xl">
                     <h4 class="text-2xl mb-2">Pleace Deposit</h4>
-                    <input class="w-9/12 block px-3 rounded-sm" type="text" name="" id="user-password"
+                    <input class="w-9/12 block px-3 rounded-sm" type="text" name="" id="deposit-fild"
                         placeholder="$ Amount you want to Deposit">
-                    <button id="btn-submit"
+                    <button id="btn-deposit"
                         class="bg-amber-600 px-8 py-2 font-medium rounded-lg mt-3 hover:bg-yellow-500">Deposit</button>
                 </div>
                 <div class="bg-sky-400 p-8 text-black rounded-xl">
                     <h4 class="text-2xl mb-2">Pleace Withdrow</h4>
-                    <input class="w-9/12 block px-3 rounded-sm" type="text" name="" id="user-password"
+                    <input class="w-9/12 block px-3 rounded-sm" type="text" name="" id="Withdrow-fild"
                         placeholder="$ Amount you want to Withdrow">
-                    <button id="btn-submit"
+                    <button id="btn-withdrow"
                         class="bg-amber-600 px-8 py-2 font-medium rounded-lg mt-3 hover:bg-yellow-500">Withdrow</button>
                 </div>
             </div>
         </section>
     </main>
+    <script src="js/deposit.js"></script>
 </body>
 
 </html>
